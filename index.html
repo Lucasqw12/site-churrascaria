@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chácara Eventos | Experiência Multicultural</title>
+    
+    <!-- Fontes Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Ícones FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- CSS Externo -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navegação -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon"><i class="fas fa-leaf"></i></span>
+                <span class="logo-text">Varanda <span class="highlight">do encontro</span></span>
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#gastronomia">Gastronomia</a></li>
+                <li><a href="#bebidas">Bebidas</a></li>
+                <li><a href="#infraestrutura">Infraestrutura</a></li>
+                <li><a href="#reservas" class="btn-reserva">Reservar</a></li>
+            </ul>
+
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-shape"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="subtitle">Bem-vindo à nossa casa</span>
+                <h1>Celebre a <br><span class="gradient-text">Diversidade</span></h1>
+                <p>Um espaço onde a cultura, a inclusão e a gastronomia mundial se encontram para criar memórias inesquecíveis.</p>
+                <div class="hero-buttons">
+                    <a href="#gastronomia" class="btn-primary">Conhecer Menu</a>
+                    <a href="#reservas" class="btn-secondary">Reservar Data</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-frame">
+                    <img src="https://images.unsplash.com/photo-1555244162-803834f70033?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Família celebrando">
+                    <div class="floating-badge">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Acessível</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Seção Gastronomia (Cards) -->
+    <section id="gastronomia" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Gastronomia</h2>
+                <p>Viagem de sabores com respeito e tradição</p>
+            </div>
+            <div class="cards-grid">
+                <article class="card glass">
+                    <div class="card-icon"><i class="fas fa-utensils"></i></div>
+                    <h3>Artesanato Árabe</h3>
+                    <p>Temperos exóticos e receitas tradicionais que aquecem o coração.</p>
+                </article>
+                <article class="card glass">
+                    <div class="card-icon"><i class="fas fa-om"></i></div>
+                    <h3>Tradição Indiana</h3>
+                    <p>Curries aromáticos e uma explosão de cores e sabores na sua mesa.</p>
+                </article>
+                <article class="card glass">
+                    <div class="card-icon"><i class="fas fa-drumstick-bite"></i></div>
+                    <h3>Sabores da China</h3>
+                    <p>Pratos clássicos preparados com maestria e frescor.</p>
+                </article>
+                <article class="card glass highlight-card">
+                    <div class="card-icon"><i class="fas fa-birthday-cake"></i></div>
+                    <h3>Doces & Salgados</h3>
+                    <p>O famoso bolo de aniversário e uma seleção de salgados para petiscar.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Bebidas (Cards) -->
+    <section id="bebidas" class="section drinks-bg">
+        <div class="container">
+            <div class="section-header">
+                <h2>Bebidas</h2>
+                <p>Para brindar com quem você ama</p>
+            </div>
+            <div class="cards-grid">
+                <article class="card glass">
+                    <div class="card-icon"><i class="fas fa-beer"></i></div>
+                    <h3>Leopoldina Barley</h3>
+                    <p>Refrescante e de alta qualidade.</p>
+                </article>
+                <article class="card glass">
+                    <div class="card-icon"><i class="fas fa-wine-bottle"></i></div>
+                    <h3>Blue Label</h3>
+                    <p>O toque especial para momentos inesquecíveis.</p>
+                </article>
+                <article class="card glass">
+                    <div class="card-icon"><i class="fas fa-glass-whiskey"></i></div>
+                    <h3>Refrigerantes</h3>
+                    <p>Variedade para agradar a todos os paladares.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Infraestrutura (Cards) -->
+    <section id="infraestrutura" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Infraestrutura</h2>
+                <p>Espaço inclusivo e confortável</p>
+            </div>
+            <div class="cards-grid">
+                <article class="card glass">
+                    <div class="card-icon"><i class="fas fa-paw"></i></div>
+                    <h3>Área Pet</h3>
+                    <p>Seu melhor amigo também é da família. Espaço seguro e delimitado.</p>
+                </article>
+                <article class="card glass">
+                    <div class="card-icon"><i class="fas fa-wheelchair"></i></div>
+                    <h3>Acessibilidade</h3>
+                    <p>Locais adaptados para cadeirantes e sinalização para deficiência visual.</p>
+                </article>
+                <article class="card glass">
+                    <div class="card-icon"><i class="fas fa-child"></i></div>
+                    <h3>Parquinho</h3>
+                    <p>Segurança e diversão para as crianças se soltarem.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Reservas (Formulário) -->
+    <section id="reservas" class="section reserva-section">
+        <div class="container">
+            <div class="reserva-wrapper">
+                <div class="reserva-info">
+                    <h2>Agende seu Evento</h2>
+                    <p>Preencha o formulário e nossa equipe entrará em contato para confirmar a disponibilidade.</p>
+                    <ul class="reserva-features">
+                        <li><i class="fas fa-check"></i> Atendimento personalizado</li>
+                        <li><i class="fas fa-check"></i> Orçamento sem compromisso</li>
+                        <li><i class="fas fa-check"></i> Confirmação rápida</li>
+                    </ul>
+                </div>
+                <div class="reserva-form-container glass">
+                    <form id="bookingForm" class="booking-form">
+                        <div class="form-group">
+                            <label for="nome">Nome Completo</label>
+                            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefone">Telefone / WhatsApp</label>
+                            <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="data">Data do Evento</label>
+                                <input type="date" id="data" name="data" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="pessoas">Número de Pessoas</label>
+                                <input type="number" id="pessoas" name="pessoas" placeholder="Ex: 50" min="10" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="tipo">Tipo de Evento</label>
+                            <select id="tipo" name="tipo">
+                                <option value="aniversario">Aniversário</option>
+                                <option value="casamento">Casamento</option>
+                                <option value="corporativo">Corporativo</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem (Opcional)</label>
+                            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte-nos mais sobre sua ideia..."></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">
+                            Solicitar Orçamento <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contato">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Chácara Eventos</h3>
+                    <p>Onde a cultura abraça a família.</p>
+                </div>
+                <div class="footer-info">
+                    <p><i class="fas fa-map-marker-alt"></i> Rua das Flores, 123 - Cidade Jardim</p>
+                    <p><i class="fas fa-phone"></i> (11) 99999-9999</p>
+                    <p><i class="fas fa-envelope"></i> contato@chacaraeventos.com.br</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS Externo -->
+    <script src="script.js"></script>
+</body>
+</html>
